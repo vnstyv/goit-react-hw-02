@@ -6,7 +6,7 @@ import Feedback from '../Feedback/Feedback';
 import Options from '..Options/Options';
 import Notification from '../Notification/Notification';
 
-const feedbackTypes = {
+const defaultScores = {
   good: 0,
   neutral: 0,
   bad: 0
