@@ -1,0 +1,15 @@
+body {
+    padding: 15px;
+    color: #1b1b1b;
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
