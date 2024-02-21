@@ -6,25 +6,25 @@ export default function Options({
   isAnyFeedback,
 }) {
   return (
-    <ul className={css.list}>
+    <ul>
       <li>
-        <button className={css.btn} onClick={() => updateFeedback("good")}>
+        <button onClick={() => updateFeedback("good")}>
           Good
         </button>
       </li>
       <li>
-        <button className={css.btn} onClick={() => updateFeedback("neutral")}>
+        <button onClick={() => updateFeedback("neutral")}>
           Neutal
         </button>
       </li>
       <li>
-        <button className={css.btn} onClick={() => updateFeedback("bad")}>
+        <button onClick={() => updateFeedback("bad")}>
           Bad
         </button>
       </li>
       {isAnyFeedback && (
         <li>
-          <button className={css.btn} onClick={() => resetFeedback()}>
+          <button onClick={() => resetFeedback()}>
             Reset
           </button>
         </li>
