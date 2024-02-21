@@ -1,4 +1,4 @@
-
+import css from './Options.module.css';
 
 export default function Options({
   updateFeedback,
@@ -6,25 +6,25 @@ export default function Options({
   isAnyFeedback,
 }) {
   return (
-    <ul>
+    <ul className={css.list}>
       <li>
-        <button onClick={() => updateFeedback("good")}>
+        <button className={css.btn} onClick={() => updateFeedback("good")}>
           Good
         </button>
       </li>
       <li>
-        <button onClick={() => updateFeedback("neutral")}>
+        <button className={css.btn} onClick={() => updateFeedback("neutral")}>
           Neutal
         </button>
       </li>
       <li>
-        <button onClick={() => updateFeedback("bad")}>
+        <button className={css.btn} onClick={() => updateFeedback("bad")}>
           Bad
         </button>
       </li>
       {isAnyFeedback && (
         <li>
-          <button onClick={() => resetFeedback()}>
+          <button className={css.btn} onClick={() => resetFeedback()}>
             Reset
           </button>
         </li>
