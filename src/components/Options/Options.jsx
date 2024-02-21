@@ -14,7 +14,7 @@ export default function Options({
       </li>
       <li>
         <button className={css.btn} onClick={() => updateFeedback("neutral")}>
-          Neutal
+          Neutral
         </button>
       </li>
       <li>

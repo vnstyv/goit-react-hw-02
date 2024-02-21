@@ -2,11 +2,13 @@
     background-color: #e8e8e8;
     padding: 8px;
     border-radius: 12px;
+    border-color: #ACA8AB;
 }
 
 .btn:hover,
 .btn:focus {
     background-color: #b3b3b3;
+    border-color: #454647;
 }
 
 .list {
